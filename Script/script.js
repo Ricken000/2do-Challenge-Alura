@@ -6,6 +6,7 @@ const mistakesContainer = document.getElementById('mistakesContainer');
 let hits;
 let mistakes;
 let keysPressed = [];
+let play = false;
 
 let word = words[0]
 
@@ -40,7 +41,7 @@ function keyPress(x) {
             }
             });
             //verificando si hay letras repetidas
-            if (unrepeatedLetter) {
+            if (unrepeatedLetter && play) {
                 //almacenando letras presionadas
                 keysPressed.push(x);
                 for (let index = 0; index < wordContainer.childElementCount; index++) {
@@ -51,6 +52,7 @@ function keyPress(x) {
                         hits += 1;
                         letterfound = true;
                         if (hits == word.length) {
+                            play = false
                             alert('Has ganado');                    
                         }
                     }
@@ -59,6 +61,7 @@ function keyPress(x) {
                     mistakes+= 1;
                     wrongLetters(x);
                     if (mistakes == 6){
+                        play = false
                         alert('Has perdido');
                     }
                 } 
@@ -72,6 +75,7 @@ function newGame (){
     hits = 0;
     mistakes = 0;
     keysPressed = [];
+    play = true;
     buttonNewGame.style.display = 'none';
     showLetter();
     //que ocurre al presionar un boton, enviando la tecla presionada
