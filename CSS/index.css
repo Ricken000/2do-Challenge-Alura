@@ -1,0 +1,12 @@
+.letter {
+    letter-spacing: 0.5vh;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+.hidden {
+    color: transparent;
+}
+.wordContainer {
+    display: inline-block;
+}
