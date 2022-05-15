@@ -11,8 +11,8 @@ let word = words[0]
 
 function wrongLetters (x){
     let wrongLetter = document.createElement('span');
-    wrongLetter.textContent = x.key;
-    mistakesContainer.classList.add(wrongLetter);
+    wrongLetter.textContent = x;
+    mistakesContainer.appendChild(wrongLetter);
 }
 
 // Imprime letra por letra en el div wordContainer, creando un span ademas de un espacio, añade las clases letter y hidden para propiedades css
@@ -57,6 +57,7 @@ function keyPress(x) {
                 }
                 if (!letterfound) {
                     mistakes+= 1;
+                    wrongLetters(x);
                     if (mistakes == 6){
                         alert('Has perdido');
                     }

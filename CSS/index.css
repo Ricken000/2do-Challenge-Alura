@@ -8,5 +8,8 @@
     color: transparent;
 }
 .wordContainer {
-    display: inline-block;
+    display: block;
+}
+.mistakesContainer{
+    display: block;
 }
