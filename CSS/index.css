@@ -21,58 +21,58 @@ main{
 }
 .pedestalBase{
     position: absolute;
-    bottom: 36%;
+    bottom: 44%;
     left: 40%;
 }
 .pedestalMastil{
     position: absolute;
     left: 44%;
-    bottom: 36%;
+    bottom: 44%;
 }
 .pedestalVara{
     position: absolute;
-    bottom: 82%;
+    bottom: 81%;
     left: 44%;
 }
 .pedestalSoga{
     position: absolute;
     bottom: 76%;
-    left: 55.3%;
+    left: 53%;
 }
 #cabeza{
     position: absolute;
-    bottom: 68%;
-    left: 53.4%;
+    bottom: 70%;
+    left: 51.5%;
     display: none;
 }
 #tronco{
     position: absolute;
-    bottom: 51%;
-    left: 55.3%;
+    bottom: 56%;
+    left: 53%;
     display: none;
 }
 #brazoDerecho{
     position: absolute;
-    bottom: 59%;
-    left: 53%;
+    bottom: 61%;
+    left: 51.2%;
     display: none;
 }
 #brazoIzquierdo{
     position: absolute;
-    bottom: 59%;
-    left: 55.5%;
+    bottom: 61%;
+    left: 53%;
     display: none;
 }
 #piernaIzquierda{
     position: absolute;
-    bottom: 43.2%;
-    left: 55.5%;
+    bottom: 50%;
+    left: 53%;
     display: none;
 }
 #piernaDerecha{
     position: absolute;
-    bottom: 43.2%;
-    left: 53%;
+    bottom: 50%;
+    left: 51.2%;
     display: none;
 } 
 .newWordArea{
