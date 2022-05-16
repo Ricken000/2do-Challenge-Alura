@@ -104,7 +104,7 @@ function deleteWordContainer(){
         wordContainer.removeChild(wordContainer.firstChild);
     }
 }
-
+ 
 function deleteWrongContainer(){
     while (mistakesContainer.firstChild) {
         mistakesContainer.removeChild(mistakesContainer.firstChild);
