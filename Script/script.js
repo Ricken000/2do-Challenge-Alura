@@ -6,6 +6,12 @@ const mistakesContainer = document.getElementById('mistakesContainer');
 const addNewWordButton = document.getElementById('addNewWordButton');
 const buttonGiveUp = document.getElementById('buttonGiveUp');
 const newWordContainer = document.getElementById('newWord');
+const cabeza = document.getElementById('cabeza');
+const tronco = document.getElementById('tronco');
+const brazoDerecho = document.getElementById('brazoDerecho');
+const brazoIzquierdo = document.getElementById('brazoIzquierdo');
+const piernaIzquierda = document.getElementById('piernaIzquierda');
+const piernaDerecha = document.getElementById('piernaDerecha');
 
 let hits;
 let mistakes;
@@ -50,6 +56,24 @@ function keyPress(x) {
                 }
                 if (!letterfound) {
                     mistakes+= 1;
+                    if (mistakes == 1) {
+                        cabeza.style.display = 'initial'
+                    }
+                    if (mistakes == 2) {
+                        tronco.style.display = 'initial'
+                    } 
+                    if (mistakes == 3) {
+                        brazoDerecho.style.display = 'initial'
+                    } 
+                    if (mistakes == 4) {
+                        brazoIzquierdo.style.display = 'initial'
+                    } 
+                    if (mistakes == 5) {
+                        piernaDerecha.style.display = 'initial'
+                    } 
+                    if (mistakes == 6) {
+                        piernaIzquierda.style.display = 'initial'
+                    }
                     wrongLetters(x);
                     if (mistakes == 6){
                         play = false

@@ -1,20 +1,16 @@
 header{
     height: 10vh;
-    background-color: white;
 }
 main{
     height: 85vh;
-    background-color: red;
 }
 #ahorcadoContenedor{
     width: 100vw;
     height: 450px;
     text-align:center;
-    background-color: pink;
 }
 #ahorcado{
     margin: 0px auto;
-    background-color: black;
     height: 420px;
     width: 320px;
 }
@@ -42,36 +38,39 @@ main{
     position: absolute;
     bottom: 68%;
     left: 53.4%;
-    color: red;
+    display: none;
 }
 #tronco{
     position: absolute;
     bottom: 51%;
     left: 55.3%;
+    display: none;
 }
 #brazoDerecho{
     position: absolute;
     bottom: 59%;
     left: 53%;
+    display: none;
 }
 #brazoIzquierdo{
     position: absolute;
     bottom: 59%;
     left: 55.5%;
+    display: none;
 }
 #piernaIzquierda{
     position: absolute;
     bottom: 43.2%;
     left: 55.5%;
+    display: none;
 }
 #piernaDerecha{
     position: absolute;
     bottom: 43.2%;
     left: 53%;
+    display: none;
 }
 .newWordArea{
-    width: 400px;
-    height: 400px;
     resize: none;
 }
 #wordContainer {
@@ -87,6 +86,7 @@ main{
     color: transparent;
 }
 #mistakesContainer{
+    text-transform: uppercase;
     display: block;
     height: 1em;
 }
@@ -99,8 +99,8 @@ main{
 }
 footer{
     height: 5vh;
-    background-color: blue;
 }
 .nameFooter{
     text-align: center;
+    color: darkblue;
 }
