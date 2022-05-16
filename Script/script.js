@@ -121,7 +121,7 @@ function newGame (){
     //arreglar esta wea
     if (newWordContainer.firstChild){
         words.push(document.getElementsByClassName('newWordArea').textContent);
-        console.log(document.getElementsByClassName('newWordArea').textContent);
+        console.log(document.getElementsByClassName('newWordArea'));
         console.log(words);
     }
     hits = 0;
@@ -145,6 +145,7 @@ function addNewWord(){
     let newWord = document.createElement('textarea');
     newWord.classList.add('newWordArea');
     newWord.setAttribute('placeholder','Ingrese nueva palabra');
+    newWord.setAttribute('type','text');
     document.getElementById('newWord').appendChild(newWord);
 }
 

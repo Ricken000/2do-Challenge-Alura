@@ -1,6 +1,11 @@
 header{
     height: 10vh;
 }
+.logo{
+    position: relative;
+    top: 2%;
+    left: 1%;
+}
 main{
     height: 85vh;
 }
@@ -93,6 +98,9 @@ main{
 .center{
     text-align: center;
     margin: 5px 0;
+}
+#addNewWordButton{
+    display: none;
 }
 #buttonGiveUp{
     display: none;
