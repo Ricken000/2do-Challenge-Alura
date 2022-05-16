@@ -12,12 +12,35 @@
 
         </header>
         <main>
-            <div id='wordContainer'></div>
-            <div id='mistakesContainer'></div>
-            <button id='newGame' onclick="newGame()">Nueva Partida</button>
+            <div id="ahorcadoContenedor">
+                <div id="ahorcado">
+                    <img class='pedestalBase plataforma' src="img/Rectangle 14.png" alt="base">
+                    <img class='pedestalMastil plataforma' src="img/Rectangle 15.png" alt="mastil">
+                    <img class='pedestalVara plataforma' src="img/Rectangle 16.png" alt="vara">
+                    <img class='pedestalSoga plataforma' src="img/Rectangle 17.png" alt="soga">
+                    <img id='cabeza' src="img/Ellipse 9 (Stroke).png" alt="cabeza">
+                    <img id='tronco' src="img/Rectangle 18.png" alt="tronco">
+                    <img id='brazoDerecho' src="img/Rectangle 19.png" alt="brazoDerecho">
+                    <img id="brazoIzquierdo" src="img/Rectangle 20.png" alt="brazoIzquierdo">
+                    <img id="piernaIzquierda" src="img/Rectangle 21.png" alt="piernaIzquierda">
+                    <img id='piernaDerecha' src="img/Rectangle 22.png" alt="piernaDerecha">
+                </div>
+            </div>
+            <div id="newWord"></div>
+            <div id='wordContainer' class="center"></div>
+            <div id='mistakesContainer' class="center"></div>
+            <div class="center">
+                <button id='newGame' class='stop' onclick="newGame()">Nueva Partida</button>
+            </div>
+            <div class="center">
+                <button id="addNewWordButton" onclick="addNewWord()">Agregar Palabra Nueva</button>
+            </div>
+            <div class="center">
+                <button id="buttonGiveUp" onclick="giveUp()">Reiniciar</button>
+            </div>
         </main>
         <footer>
-            <p>Ricardo Caviedes Febre - Estudiante en Alura Latam</p>
+            <p class="nameFooter">Ricardo Caviedes Febre - Estudiante en Alura LATAM</p>
         </footer>
     </body>
     <script src='Script/script.js'></script>

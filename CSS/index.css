@@ -1,3 +1,82 @@
+header{
+    height: 10vh;
+    background-color: white;
+}
+main{
+    height: 85vh;
+    background-color: red;
+}
+#ahorcadoContenedor{
+    width: 100vw;
+    height: 450px;
+    text-align:center;
+    background-color: pink;
+}
+#ahorcado{
+    margin: 0px auto;
+    background-color: black;
+    height: 420px;
+    width: 320px;
+}
+.pedestalBase{
+    position: absolute;
+    bottom: 36%;
+    left: 40%;
+}
+.pedestalMastil{
+    position: absolute;
+    left: 44%;
+    bottom: 36%;
+}
+.pedestalVara{
+    position: absolute;
+    bottom: 82%;
+    left: 44%;
+}
+.pedestalSoga{
+    position: absolute;
+    bottom: 76%;
+    left: 55.3%;
+}
+#cabeza{
+    position: absolute;
+    bottom: 68%;
+    left: 53.4%;
+    color: red;
+}
+#tronco{
+    position: absolute;
+    bottom: 51%;
+    left: 55.3%;
+}
+#brazoDerecho{
+    position: absolute;
+    bottom: 59%;
+    left: 53%;
+}
+#brazoIzquierdo{
+    position: absolute;
+    bottom: 59%;
+    left: 55.5%;
+}
+#piernaIzquierda{
+    position: absolute;
+    bottom: 43.2%;
+    left: 55.5%;
+}
+#piernaDerecha{
+    position: absolute;
+    bottom: 43.2%;
+    left: 53%;
+}
+.newWordArea{
+    width: 400px;
+    height: 400px;
+    resize: none;
+}
+#wordContainer {
+    display: block;
+}
 .letter {
     letter-spacing: 0.5vh;
     text-transform: uppercase;
@@ -7,9 +86,21 @@
 .hidden {
     color: transparent;
 }
-.wordContainer {
+#mistakesContainer{
     display: block;
+    height: 1em;
 }
-.mistakesContainer{
-    display: block;
+.center{
+    text-align: center;
+    margin: 5px 0;
+}
+#buttonGiveUp{
+    display: none;
+}
+footer{
+    height: 5vh;
+    background-color: blue;
+}
+.nameFooter{
+    text-align: center;
 }
