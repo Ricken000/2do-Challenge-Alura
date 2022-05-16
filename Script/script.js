@@ -152,7 +152,7 @@ function addNewWord(){
 function giveUp(){
     buttonNewGame.style.display = 'initial';
     buttonGiveUp.style.display = 'none';
-    addNewWordButton.style.display = 'initial';
+    addNewWordButton.style.display = 'none';
     deleteWordContainer();
     deleteWrongContainer();
 }
